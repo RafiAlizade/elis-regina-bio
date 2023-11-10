@@ -1,0 +1,576 @@
+@font-face {
+    font-family: Lora;
+    src: url("../fonts/Lora-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ! Navbar */
+
+.navbar nav {
+    height: 64px;
+    width: 100%;
+    background-color: #1D1E26;
+}
+
+.navbar ul {
+    text-align: center;
+    /* padding-top: 15px; */
+}
+
+.navbar ul li {
+    display: inline-block;
+    color: #F2F2F2;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    margin-left: 80px;
+}
+
+.navbar ul li:nth-child(even) {
+    padding-top: 15px;
+}
+
+.navbar ul li:nth-child(2) {
+    background-color: #8C111B;
+    font-size: 24px;
+    width: 336px;
+    height: 64px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+/* ! Main */
+
+main {
+    width: 100%;
+    height: 1016px;
+    position: relative;
+}
+
+main .container {
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 30, 38, 0.70);
+    background-image: url("../image/Component\ 1.svg");
+    background-blend-mode: darken;
+    object-fit: cover;
+}
+
+.elis-regina {
+    position: absolute;
+    width: 381px;
+    height: 92px;
+    text-align: center;
+    font-size: 72px;
+    font-family: Lora;
+    color: #F2F2F2;
+    text-shadow: -2px 2px 0px #8C111B;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.par-text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 666px;
+    height: 58px;
+    color: #F2F2F2;
+    text-align: center;
+    font-family: Lora;
+    font-size: 24px;
+    top: 58%;
+    left: 50%;
+}
+
+/* ! Biography */
+
+.biography {
+    width: 100%;
+    height: 1016px;
+    border-top: 1px solid #3b3c47;
+}
+
+.biography .container-bio {
+    width: 100%;
+    height: 100%;
+    background-color: #1D1E26;
+    position: relative;
+}
+
+.bio-text {
+    width: 233px;
+    height: 61px;
+    color: #FFF;
+    text-align: center;
+    font-family: Lora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 523px;
+}
+
+.bio-desc {
+    display: inline-block;
+    width: 641px;
+    height: 338px;
+    color: #F2F2F2;
+    text-align: left;
+    font-family: Lora;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 523px;
+    transform: translate(-50%, -50%);
+}
+
+.image-4 {
+    width: 435px;
+    height: 542px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: url("../image/image\ 4.svg"), lightgray 50% / cover no-repeat;
+    top: 450px;
+    left: 75%;
+}
+
+/* ! Discography */
+
+.discography {
+    height: 1143px;
+    width: 100%;
+    background: #1D1E26;
+    border-top: 1px solid #3b3c47;
+    position: relative;
+}
+
+.disco-text {
+    color: #FFF;
+    font-family: Lora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 156px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+/* ! Discography Cards */
+
+.card1 {
+    width: 456px;
+    height: 304px;
+    background: #1D1E26;
+    box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 20%;
+}
+
+.card1 .card1date {
+    width: 72px;
+    height: 14px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    left: 98px;
+    top: 200px;
+}
+
+.card1 .image {
+    width: 160px;
+    height: 160px;
+    background: url("../image/image\ 5.svg");
+    margin-left: 56px;
+    margin-top: 32px;
+    display: block;
+}
+
+.card1 .card1desc {
+    width: 157px;
+    height: 23px;
+    color: #F2F2F2;
+    font-family: Lora;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    left: 232px;
+    top: 32px;
+    bottom: 249px;
+}
+
+.card1 .card1lists {
+    color: #F2F2F2;
+    position: absolute;
+    left: 252px;
+    bottom: 32px;
+    font-family: Lato;
+    font-size: 14px;
+}
+
+/* ! Card 2 */
+
+.card2 {
+    width: 456px;
+    height: 304px;
+    background: #1D1E26;
+    box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+}
+
+.card2image {
+    width: 160px;
+    height: 160px;
+    background: url("../image/image\ 6.svg");
+    margin-left: 56px;
+    margin-top: 32px;
+    display: block;
+}
+
+.card2 .card2date {
+    width: 72px;
+    height: 14px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    left: 98px;
+    top: 200px;
+}
+
+.card2 .card2desc {
+    width: 157px;
+    height: 23px;
+    color: #F2F2F2;
+    font-family: Lora;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    left: 232px;
+    top: 32px;
+    bottom: 249px;
+}
+
+.card2 .card2lists {
+    color: #F2F2F2;
+    position: absolute;
+    left: 252px;
+    bottom: 32px;
+    font-family: Lato;
+    font-size: 14px;
+}
+
+/* ! Card 3 */
+
+.card3 {
+    width: 456px;
+    height: 304px;
+    background: #1D1E26;
+    box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 80%;
+}
+
+.card3image {
+    width: 160px;
+    height: 160px;
+    background: url("../image/image\ 7.svg");
+    margin-left: 56px;
+    margin-top: 32px;
+    display: block;
+}
+
+.card3 .card3date {
+    width: 72px;
+    height: 14px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    left: 98px;
+    top: 200px;
+}
+
+.card3 .card3desc {
+    width: 157px;
+    height: 23px;
+    color: #F2F2F2;
+    font-family: Lora;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    left: 232px;
+    top: 32px;
+    bottom: 249px;
+}
+
+.card3 .card3lists {
+    color: #F2F2F2;
+    position: absolute;
+    left: 252px;
+    bottom: 32px;
+    font-family: Lato;
+    font-size: 14px;
+}
+
+/* ! Card 4  */
+
+.card4 {
+    width: 456px;
+    height: 304px;
+    background: #1D1E26;
+    box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 20%;
+}
+
+.card4 .image {
+    width: 160px;
+    height: 160px;
+    background: url("../image/image\ 8.svg");
+    margin-left: 56px;
+    margin-top: 32px;
+    display: block;
+}
+
+.card4 .card4date {
+    width: 72px;
+    height: 14px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    left: 98px;
+    top: 200px;
+}
+
+.card4 .card4desc {
+    width: 195px;
+    height: 23px;
+    color: #F2F2F2;
+    font-family: Lora;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    left: 232px;
+    top: 32px;
+    bottom: 249px;
+}
+
+.card4 .card4lists {
+    color: #F2F2F2;
+    position: absolute;
+    left: 252px;
+    bottom: 32px;
+    font-family: Lato;
+    font-size: 14px;
+}
+
+/* ! Card 5 */
+
+.card5 {
+    width: 456px;
+    height: 304px;
+    background: #1D1E26;
+    box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 50%;
+}
+
+.card5image {
+    width: 160px;
+    height: 160px;
+    background: url("../image/image\ 9.svg");
+    margin-left: 56px;
+    margin-top: 32px;
+    display: block;
+}
+
+.card5 .card5date {
+    width: 72px;
+    height: 14px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    left: 98px;
+    top: 200px;
+}
+
+.card5 .card5desc {
+    width: 157px;
+    height: 23px;
+    color: #F2F2F2;
+    font-family: Lora;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    left: 232px;
+    top: 32px;
+    bottom: 249px;
+}
+
+.card5 .card5lists {
+    color: #F2F2F2;
+    position: absolute;
+    left: 252px;
+    bottom: 32px;
+    font-family: Lato;
+    font-size: 14px;
+}
+
+/* ! Card 6 */
+
+.card6 {
+    width: 456px;
+    height: 304px;
+    background: #1D1E26;
+    box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 80%;
+}
+
+.card6image {
+    width: 160px;
+    height: 160px;
+    background: url("../image/image\ 10.svg");
+    margin-left: 56px;
+    margin-top: 32px;
+    display: block;
+}
+
+.card6 .card6date {
+    width: 72px;
+    height: 14px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    left: 98px;
+    top: 200px;
+}
+
+.card6 .card6desc {
+    width: 157px;
+    height: 23px;
+    color: #F2F2F2;
+    font-family: Lora;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    left: 232px;
+    top: 32px;
+    bottom: 249px;
+}
+
+.card6 .card6lists {
+    color: #F2F2F2;
+    position: absolute;
+    left: 252px;
+    bottom: 32px;
+    font-family: Lato;
+    font-size: 14px;
+}
+
+/* ! More albums text */
+
+.click-here-text {
+    width: 323px;
+    height: 22px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 95%;
+}
+
+.click-here-text p {
+    color: #F2F2F2;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.click-here-text a {
+    color: white;
+}
+
+/* ! Footer */
+
+.footer-menu {
+    height: 64px;
+    width: 100%;
+}
+
+.footer-menu footer {
+    width: 100%;
+    height: 100%;
+    background-color: #8C111B;
+}
+
+.footer-menu p {
+    color: #F2F2F2;
+    text-align: left;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    padding-top: 18px;
+    padding-left: 85px;
+}
+
