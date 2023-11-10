@@ -97,6 +97,13 @@ main .container {
     left: 50%;
 }
 
+.alt-image {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 95%;
+    left: 50%;
+}
+
 /* ! Biography */
 
 .biography {
